@@ -6,7 +6,7 @@ def oxford_comma(array)
   else 
     string = " "
     array.each do |word|
-      string[:id] <<  "#{word}, "
+      string <<  "#{word}, "
     end
  end
 end
