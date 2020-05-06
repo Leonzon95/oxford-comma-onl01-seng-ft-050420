@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.length == 2
     array.join(" and ")
   else 
-    string = ""
+    string = " "
     array.each do |word|
       string <<  "#{word}, "
     end
