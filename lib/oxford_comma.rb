@@ -6,7 +6,7 @@ def oxford_comma(array)
   else 
     string = ""
     array.each do |word|
-      string << word, 
+      string <<  ("#{word}, ")
     end
  end
 end
